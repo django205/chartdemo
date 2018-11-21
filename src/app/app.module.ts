@@ -6,12 +6,14 @@ import { ListComponent } from './list/list.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 //import {Chart} from 'chart.js';
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
